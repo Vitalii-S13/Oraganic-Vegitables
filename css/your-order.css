@@ -1,0 +1,149 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+    /* font-family: Inter Tight, sans-serif; */
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+
+    color: #141414;
+    background-color: pink;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hide {
+    display: none;
+}
+
+/* Styles for Mobile devices */
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 100px;
+    }
+}
+
+
+.your-order {
+    background-color: #576f35;
+    padding: 80px 20px;
+        width: 375px;
+        height: 1536px;
+}
+
+.container {}
+
+.order {display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;}
+
+.order-title {
+    font-family: "Inter Tight", sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+    
+        /* line-height: 52px; */
+        line-height: 1.08333;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #fbfbfb;
+}
+
+.text-title {
+    color: #d4bfc4;
+}
+
+.subtitle-text {}
+
+.form-wrapper {}
+
+.form-title {}
+
+.form-title-color1 {}
+
+.form-title-color2 {}
+
+.form {}
+
+.form-field {}
+
+.form-input {}
+
+.form-input-comment {
+    resize: none;
+}
